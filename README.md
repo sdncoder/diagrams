@@ -1,6 +1,6 @@
 ### diagrams
 
-Mermaid diagramming  
+Mermaid diagramming:  
 `https://mermaid-js.github.io/mermaid/#/`  
 `https://www.freshbrewed.science/diagrams-as-code-mermaid/index.html`  
 
