@@ -9,8 +9,8 @@ state diagram
     direction LR  # set direction
     [*] --> main
     main --> branch
-    branch --> review
-    review --> merge
+    branch --> review 
+    review --> merge 
     merge --> main
 ```
 ```mermaid
@@ -47,13 +47,13 @@ state diagram
    stateDiagram
    direction LR
     [*] --> main
-    main --> branch
+    main --> branch : 1
     state branch {
     direction LR
-    change --> review 
-    review --> merge
+    change --> review : 2
+    review --> merge : 3
     }
-    merge --> main
+    merge --> main : 4
     main --> ansible : git pull to Ansible repo
  ```
  
