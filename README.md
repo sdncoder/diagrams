@@ -42,3 +42,18 @@ state diagram
     }
     merge --> main
  ```
+
+ ```mermaid
+   stateDiagram
+   direction LR
+    [*] --> main
+    main --> branch
+    state branch {
+    direction LR
+    change --> review 
+    review --> merge
+    }
+    merge --> main
+    main --> git : pull to Ansible repo
+ ```
+ 
