@@ -54,6 +54,6 @@ state diagram
     review --> merge
     }
     merge --> main
-    main --> git : pull to Ansible repo
+    main --> ansible : git pull to Ansible repo
  ```
  
