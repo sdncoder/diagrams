@@ -74,7 +74,7 @@ state diagram
  gitGraph
  
 ```mermaid
-init: {showBranches : false}
+{init: {showBranches : false}}
 gitGraph
        commit
        commit
