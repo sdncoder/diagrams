@@ -1,4 +1,4 @@
-### diagrams
+### diagrams as code  
 
 Mermaid diagramming:  
 `https://mermaid-js.github.io/mermaid/#/`  
