@@ -4,20 +4,6 @@ Mermaid diagramming:
 `https://mermaid-js.github.io/mermaid/#/`  
 `https://www.freshbrewed.science/diagrams-as-code-mermaid/index.html`  
 
-```mermaid
-   stateDiagram
-    direction LR  # set direction
-    [*] -- main
-    main --> branch
-    branch --> review 
-    review --> merge 
-    merge --> main
-```
-
-
-
-
-
 state diagram  
 ```
    stateDiagram
@@ -85,4 +71,17 @@ state diagram
     merge --> main : 4
     main --> ansible : 5
  ```
+ gitgraph
  
+```mermaid
+   gitgraph
+        commit
+        branch hotfix
+        checkout hotfix
+        commit
+        branch develop
+        checkout develop
+```
+
+
+
