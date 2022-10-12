@@ -71,7 +71,7 @@ state diagram
     merge --> main : 4
     main --> ansible : 5
  ```
- gitgraph
+ gitGraph
  
 ```mermaid
    gitgraph
