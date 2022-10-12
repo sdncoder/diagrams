@@ -74,7 +74,7 @@ state diagram
  gitGraph
  
 ```mermaid
-   gitgraph
+   gitGraph
         commit
         branch hotfix
         checkout hotfix
