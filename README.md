@@ -74,13 +74,17 @@ state diagram
  gitGraph
  
 ```mermaid
-   gitGraph
-        commit
-        branch hotfix
-        checkout hotfix
-        commit
-        branch develop
-        checkout develop
+gitGraph
+       commit
+       commit
+       branch develop
+       checkout develop
+       commit
+       commit
+       checkout main
+       merge develop
+       commit
+       commit
 ```
 
 
