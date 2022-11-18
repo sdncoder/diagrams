@@ -68,6 +68,24 @@ Mermaid is a JavaScript based diagramming and charting tool that uses Markdown-i
     merge --> main : 4
     main --> ansible : 5
  ```
+ 
+  ```mermaid
+   stateDiagram
+   direction LR
+    [*] --> PLAN
+    CODE --> branch : 1
+    state branch {
+    direction LR
+    change --> review : 2
+    review --> merge : 3
+    }
+    merge --> main : 4
+    main --> ansible : 5
+ ```
+ 
+ 
+ 
+ 
  gitGraph
  
 ```mermaid
